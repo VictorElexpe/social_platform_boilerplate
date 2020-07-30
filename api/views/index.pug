@@ -1,0 +1,26 @@
+h1 Login
+form(method='POST', action='/login')
+ label(for='email') Email:
+ br
+ input(type='email', placeholder='name@email.com', name='email')
+ br
+ label(for='email') Password:
+ br
+ input(type='password', name='password')
+ br
+ button(type='submit') Log in
+h1 Signup
+form(method='POST', action='/signup')
+ label(for='email') Email:
+ br
+ input(type='email', placeholder='name@email.com', name='email')
+ br
+ label(for='email') Password:
+ br
+ input(type='password', name='password')
+ br
+ label(for='username') Username:
+ br
+ input(type='text', name='username')
+ br
+ button(type='submit') Sign up
